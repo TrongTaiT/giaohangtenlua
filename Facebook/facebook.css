@@ -1,0 +1,62 @@
+body {
+  max-width: 1200px;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 100px;
+  font-family: Robotto;
+  font-weight: 400;
+}
+
+.clear {
+  clear: both;
+}
+
+.line1,
+.line3,
+.line5 {
+  text-align: center;
+  font-size: 30px;
+  line-height: 60px;
+  color: #fff;
+  background-color: var(--main-color);
+}
+
+.line5 {
+  margin-top: 50px;
+}
+.line4__left,
+.line4__right {
+  margin-top: 20px;
+  float: left;
+  border: 2px solid #000;
+  background-color: #fff;
+}
+.line4__left {
+  margin-right: 10px;
+}
+
+.line6,
+h2 {
+  font-size: 22px;
+  max-width: 900px;
+  text-align: justify;
+  margin: auto;
+}
+
+h2 {
+  padding: 20px;
+  font-size: 40px;
+}
+
+.line6 img {
+  width: 100%;
+  margin: 15px 0;
+}
+
+.fb-comments {
+  padding: 30px 100px;
+}
+
+.like-btn {
+  float: right;
+}

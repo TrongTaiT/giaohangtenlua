@@ -1,0 +1,46 @@
+.container {
+	width: 1250px;
+	min-height: 700px;
+	padding: 0px;
+	margin: 0px auto;
+}
+.dong1 {
+	color: #fff;
+	width: 1250px;
+	height: 80px;
+	text-align: center;
+	font-size: 40px;
+	padding-top: 20px;
+	background-color: #01904a;
+	text-transform: uppercase;
+}
+.dong2 {
+	padding-top: 10px;
+}
+.dong2 .cot_trai {
+	width: 75%;
+	min-height: 500px;
+	float: left;
+}
+.dong2 .cot_phai {
+	width: 25%;
+	min-height: 500px;
+	float: left;
+}
+.dong3 {
+	float: left;
+	background-color: #01904a;
+	height: 100px;
+	width: 100%;
+	text-align: center;
+	font-size: 30px;
+}
+p {
+	line-height: 30px;
+	color: #fff;
+}
+
+iframe {
+	width: 100%;
+	min-height: 500px;
+}

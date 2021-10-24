@@ -1,0 +1,288 @@
+/* Above header */
+.above-header {
+	height: 4.6rem;
+	width: 100%;
+	background-color: var(--bg-color);
+}
+
+.above-header__mod {
+	display: flex;
+	justify-content: space-between;
+	height: 100%;
+}
+
+.apps {
+	display: flex;
+	align-items: center;
+}
+
+.apps .desc {
+	font-size: 1.3rem;
+}
+
+.ios {
+	margin-left: 1rem;
+}
+
+.android {
+	margin-left: 0.5rem;
+}
+
+.android-img {
+	height: 2rem;
+}
+
+.help {
+	font-size: 1.4rem;
+	display: flex;
+	align-items: center;
+	background-color: var(--main-color);
+	border-radius: 3.7rem;
+	box-shadow: 1px 1px 5px grey;
+	padding: 1.5rem;
+	height: 3.4rem;
+	margin-top: 0.6rem;
+}
+
+.help:hover {
+	color: #fff;
+	background-color: #000;
+}
+
+.help-link {
+	text-decoration: none;
+	color: #fff;
+	transform: translateY(-10%);
+	font-weight: 400;
+}
+
+.sos-icon {
+	height: 2rem;
+	width: 2rem;
+	transform: translateY(10%);
+}
+/* End Above-header */
+
+/* Start Login-bar */
+.login-bar {
+	height: 7.6rem;
+	background-color: var(--main-color);
+}
+.login-bar--mod {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	align-content: center;
+	height: 100%;
+}
+
+.login-bar .logo-img {
+	width: 30rem;
+}
+
+.login-form {
+	display: flex;
+}
+
+.login-form .user input,
+.login-form .password input {
+	font-size: 1.5rem;
+	line-height: 1.7rem;
+	padding: 1rem;
+	border: 1px solid #fff;
+	font-family: inherit;
+	width: 25rem;
+	background-color: #fff;
+	box-shadow: 2px 2px rgb(178, 221, 24);
+	margin-bottom: 0.5rem;
+}
+
+.login-form .user,
+.login-form .password {
+	margin-right: 2rem;
+}
+
+.login-form .forget {
+	font-size: 1.3rem;
+	cursor: pointer;
+	margin-top: 0.2rem;
+	color: #fff;
+}
+
+.login-form .forget:hover {
+	text-decoration: underline;
+}
+
+.login-form .login button {
+	padding: 1.1rem 1.5rem;
+	background-color: #fff;
+	border: 0;
+	font-size: 1.5rem;
+	text-transform: uppercase;
+	cursor: pointer;
+	box-shadow: 2px 2px rgb(178, 221, 24);
+}
+
+.login-form .login:hover button {
+	background-color: rgb(106, 250, 154);
+}
+/* End Login-bar */
+
+/* Main */
+main.main--mod {
+	display: flex;
+	margin-top: 2rem;
+	font-size: 1.5rem;
+}
+
+/* Start main-pros */
+.pros__desc {
+	display: flex;
+	max-width: 28rem;
+	line-height: 1.6;
+	margin-bottom: 2rem;
+}
+main h2 {
+	font-size: 3rem;
+	font-weight: 400;
+	margin-bottom: 1rem;
+}
+
+.pros__desc-img--mod {
+	width: 22px;
+	margin: 0.5rem 1rem 0;
+}
+
+.pros__desc-text-title {
+	font-size: 1.8rem;
+}
+
+.pros__desc-text-sub {
+	font-size: 1.4rem;
+}
+/* End main-pros */
+
+/* Start main-form */
+.signup {
+	flex-grow: 1;
+	margin-left: 2.5rem;
+}
+
+.text-input--mod {
+	font-size: 1.5rem;
+	padding: 0.8rem;
+	width: 100%;
+	margin: 0.5rem 0;
+}
+
+.signup .select {
+	display: flex;
+	justify-content: space-between;
+}
+
+.signup .select-bar {
+	padding: 0.8rem;
+	width: 20rem;
+	margin: 0.5rem 0;
+	font-size: 1.5rem;
+}
+
+.signup .input-title {
+	display: inline-block;
+	padding: 1rem 0 0;
+}
+
+.select-bank .select-bar,
+.select-branch .select-bar {
+	width: 30rem;
+}
+
+.privacy-check {
+	margin: 0.5rem 0;
+	font-weight: 600;
+}
+
+.privacy-check span a {
+	color: var(--main-color);
+	text-decoration: none;
+}
+
+.privacy-check span:hover a {
+	text-decoration: underline;
+}
+
+.button .signup-btn {
+	display: block;
+	height: 4.5rem;
+	padding: 1.5rem;
+	width: 100%;
+	background-color: var(--main-color);
+	text-decoration: none;
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.button .signup-btn:hover {
+	background-color: #000;
+}
+/* End main-form */
+
+/* Start happy customers */
+.happy-customers {
+	background-color: var(--bg-color);
+	padding: 2rem;
+}
+.happy-customers--mod {
+	text-align: center;
+}
+
+h2.hacu-title,
+.blog-title {
+	font-size: 3.5rem;
+	font-weight: 200;
+	margin-bottom: 2rem;
+}
+
+.customers-logos {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+.logo--mod {
+	width: 15rem;
+	margin: 0 5rem;
+}
+/* End Happy Customers */
+
+/* Start footer */
+footer {
+	padding: 2rem 2.5rem;
+	padding-bottom: 2.5rem;
+	background-color: #000;
+	text-align: center;
+	color: #fff;
+	font-size: 1.4rem;
+	line-height: 2.5rem;
+}
+
+.social-links {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.social-links * {
+	margin: 0 1rem;
+}
+
+.social-links a {
+	font-size: 30px;
+	color: #fff;
+	text-decoration: none;
+}
+
+.social-links a:hover {
+	color: var(--main-color);
+}
+/* End footer */

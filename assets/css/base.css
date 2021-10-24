@@ -1,0 +1,30 @@
+:root {
+	--main-color: #01904a;
+	--text-low-opacity: #5f6368;
+	--bg-color: #efefef;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html,
+body {
+	font-size: 62.5%;
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+}
+
+.scale-scr {
+	max-width: 120rem;
+	width: 100%;
+	margin: auto;
+}
+
+.scale-sub {
+	max-width: 100rem;
+	width: 100%;
+	margin: auto;
+}

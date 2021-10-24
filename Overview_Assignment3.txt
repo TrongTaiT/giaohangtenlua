@@ -1,0 +1,21 @@
+domain: giaohangtenlua.000webhostapp.com
+
+Cấu trúc:
+
+1. Thanh tải apps, mục chat hỗ trợ
+
+2. Logo, thanh menu có menu con.
+
+3. Có trang Về chúng tôi
+
+4. Dịch vụ có menu con
+
+5. Blog nằm trong trang index
+
+6. Gallery bộ ảnh
+
+7. Form đăng ký, đăng nhập
+
+8. Chat hỗ trợ
+
+9. Có kèm Facebook Like, Comments và nhúng Frame Youtube ở footer.
